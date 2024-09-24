@@ -1,0 +1,179 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+.main-top {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    padding: 34px 0;
+}
+.main-top h2.main-title {
+    font-size: 2em;
+    margin: 0;
+}
+.main-top a.page-title-action {
+    position: static !important;
+}
+
+
+.dataTables_wrapper .dataTables_length select {
+    padding: 0px 15px;
+}
+.dataTables_wrapper .dataTables_length select {
+    padding: 0px 15px;
+    min-width: 80px;
+    min-height: 35px;
+}
+.dataTables_wrapper .dataTables_filter input {
+    min-height: 35px;
+    max-height: 35px;
+}
+
+table.dataTable tbody th, table.dataTable tbody td,
+table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
+    padding: 12px 30px !important;
+    border-bottom: 1px solid #eee;
+}
+#schools-table, #year-table, .gen-table {
+    background: #fff !important;
+    border-radius: 12px;
+    box-shadow: 1px 1px 11px #ddd !important;
+    position: relative;
+    top: 15px;
+    margin-bottom: 27px !important;
+    border: none !important;
+}
+
+#schools-table thead , #year-table thead , .gen-table thead{
+    background: #f6f9fc;
+}
+.alternate, .striped>tbody>:nth-child(odd), ul.striped>:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+table.dataTable thead th, table.dataTable tfoot th {
+    font-size: 15px;
+    font-weight: bold;
+}
+a.paginate_button.current {
+    border: none !important;
+    background: #eee !important;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ddd;
+
+}
+.dataTables_wrapper .dataTables_length select {
+    border-color: #ddd;
+}
+
+.add-new-year-data {
+    display: flex;
+    align-items: center;
+    margin: 0px 0 20px;
+}
+.add-new-year-data a#add-year-group, .page-title-action {
+    top: 0 !important;
+}
+/* .res-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+ul.search-add-school {
+    background: #f9f9f9;
+    padding: 10px 10px 6px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    gap: 5px;
+}
+ul.search-add-school a {
+    text-decoration: none;
+    background: #666;
+    color: #fff;
+    padding: 1px 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 20px;
+    float: right;
+}
+/* ul.search-add-school li {
+    width: 25%;
+} */
+.sec-heading{
+    margin: 40px 0 20px;
+}
+.gen-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 30%;
+}
+.gen-form input {
+    margin-bottom: 10px;
+}
+.gen-form label {
+    font-weight: bold;
+}
+a.backtoschool {
+    display: block;
+    margin: 30px 10px 10px;
+    text-decoration: none;
+    color: brown;
+    font-size: 14px;
+}
+#wpfooter {
+    display: none;
+}
+#toplevel_page_basispoort-menu ul li a.wp-first-item {
+    display: none !important;
+}
+#toplevel_page_basispoort-menu ul li:nth-child(6), #toplevel_page_basispoort-menu ul li:nth-child(7), #toplevel_page_basispoort-menu li:nth-child(8) {
+    display: none;
+}
+.search-add-school li:nth-child(3) {
+    width: 44%;
+}
+/* .search-add-school li:last-child {
+    width: 5%;
+} */
+.search-add-school li {
+    width: 20%;
+}
+.above-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 30px 0 20px 10px;
+    font-size: 14px;
+    width: 50%;
+}
+.above-tabs strong {
+    width: 25%;
+    display: inline-block;
+    background: #eee;
+    padding: 6px;
+    margin-right: 15px;
+}
+.above-tabs span {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+}
+.above-tabs strong  {
+    border: 1px solid #eee;
+}
+
+div#school-update-message {
+    text-align: center;
+    background: #28a745;
+    color: #fff;
+    padding: 6px 0px;
+}
